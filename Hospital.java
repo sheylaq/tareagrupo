@@ -10,7 +10,7 @@ package helpers;
  * @author user
  */
 public abstract class Hospital {
-    private String color;
+    private String color, nombre;
     private String dimensiones; 
     int npisos;
     
@@ -21,6 +21,9 @@ public abstract class Hospital {
     
     public void establecerColor(String color){
         this.color=color;
+    }
+     public void establecerNombre(String nombre){
+        this.nombre=nombre;
     }
     
       public void establecerDimensiones(String dimensiones){
