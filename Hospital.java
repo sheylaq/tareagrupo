@@ -18,6 +18,17 @@ public abstract class Hospital {
     public Hospital(){
       
     }
+    
+    public void establecerColor(String color){
+        this.color=color;
+    }
+    
+      public void establecerDimensiones(String dimensiones){
+        this.dimensiones=dimensiones;
+    }
+    
+    
+    
     abstract String direccion();
     
 }
