@@ -26,6 +26,9 @@ public abstract class Hospital {
       public void establecerDimensiones(String dimensiones){
         this.dimensiones=dimensiones;
     }
+       public void establecernpisos(int npisos){
+        this.npisos=npisos;
+    }
     
     
     
