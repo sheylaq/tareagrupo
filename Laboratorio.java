@@ -9,16 +9,16 @@ package helpers;
  *
  * @author user
  */
-public class Farmacia extends Hospital {
- public Farmacia(){
-    establecerColor("Cafe");
-    establecernpisos(3);
-    establecerDimensiones("34mx43m");
-    establecerNombre("Farmaceutica Villa Cristi");
+public class Laboratorio  extends Hospital{
+public Laboratorio(){
+    establecerColor("Blanco ");
+    establecernpisos(1);
+    establecerDimensiones("30mx40m");
+    establecerNombre("Paseo Tres Caminos");
 }
     @Override
     String direccion() {
-        return "Colonia Villa Cristiana";
-        } 
-
+     return "Barrio Las Jaguas";
+    }
+    
 }
