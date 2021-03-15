@@ -17,7 +17,7 @@ public class Farmacia extends Hospital {
     establecerNombre("Farmaceutica Villa Cristi");
 }
     @Override
-    String direccion() {
+    public String direccion() {
         return "Colonia Villa Cristiana";
         } 
 

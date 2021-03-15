@@ -5,6 +5,9 @@
  */
 package modulo5;
 
+import helpers.Farmacia;
+import helpers.Laboratorio;
+
 /**
  *
  * @author user
@@ -18,8 +21,18 @@ public class Modulo5 {
         // TODO code application logic here
         
         Farmacia farmacia = new Farmacia();
-        Laboratorio laboratorio = new Laboratorio;
-        
+        Laboratorio laboratorio = new Laboratorio();
+                  System.out.println("------------------------------\n");
+                  System.out.println("          Laboratorio\n");
+                  laboratorio.info();
+                 System.out.println("Direccion: "+ laboratorio.direccion());
+
+                   System.out.println("------------------------------\n");
+                  System.out.println("          Farmacia\n");
+                   farmacia.info();
+                   System.out.println("Direccion: "+ farmacia.direccion());
+                   System.out.println("------------------------------\n");
+
     }
     
 }

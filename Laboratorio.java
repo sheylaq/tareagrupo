@@ -17,7 +17,7 @@ public Laboratorio(){
     establecerNombre("Paseo Tres Caminos");
 }
     @Override
-    String direccion() {
+    public String direccion() {
      return "Barrio Las Jaguas";
     }
     
