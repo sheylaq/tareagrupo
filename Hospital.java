@@ -33,7 +33,12 @@ public abstract class Hospital {
         this.npisos=npisos;
     }
     
-    
+       public void info(){
+       System.out.println("Nombre: "+ nombre +"\n");
+       System.out.println("Color: "+ color +"\n");
+       System.out.println("Dimensiones: "+ dimensiones +"\n");
+        System.out.println("Pisos: "+ npisos +"\n");
+       }
     
     abstract String direccion();
     
